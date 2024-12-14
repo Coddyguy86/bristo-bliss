@@ -6,25 +6,25 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0vw";
 }
 function myhome() {
-  location.replace("http://192.168.1.2:3000/index.html");
+  location.replace("https://coddyguy86.github.io/bristo-bliss/");
 }
 
 function mytable() {
-  location.replace("http://192.168.1.2:3000/booktable.html");
+  location.replace("https://coddyguy86.github.io/bristo-bliss/booktable.html");
 }
 function mymenu() {
-  location.replace("http://192.168.1.2:3000/menu.html");
+  location.replace("https://coddyguy86.github.io/bristo-bliss/menu.html");
 }
 function myarticle() {
-  location.replace("http://192.168.1.2:3000/pages.html");
+  location.replace("https://coddyguy86.github.io/bristo-bliss/pages.html");
 }
 
 function mycontact() {
-  location.replace("http://192.168.1.2:3000/contact.html");
+  location.replace("https://coddyguy86.github.io/bristo-bliss/contact.html");
 }
 
 function myabout() {
-  location.replace("http://192.168.1.2:3000/about.html");
+  location.replace("https://coddyguy86.github.io/bristo-bliss/about.html");
 }
 
 // for Animations
