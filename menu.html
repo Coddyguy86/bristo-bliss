@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <title>Bistro Bliss</title>
+    <link rel="icon" type="image/x-icon" href="assets/japanese-food.png">
+
+</head>
+
+<body>
+    <header>
+        <div class="contact">
+            <div class="line1contact"> <span> <i class="fa-solid fa-phone"></i> (414) 857 - 0107</span>
+                <span><i class="fa-solid fa-envelope"></i>yummy@bistrobliss</span>
+            </div>
+            <div class="social"> <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="nav">
+
+            <div class="logo">
+                <a href=""> <img src="assets/Logo (2).png" alt="Bistro Bliss"></a>
+            </div>
+
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+
+                    <li onclick="myhome()"> <a>
+                            Home
+                        </a></li>
+                    <li onclick="myabout()"> <a>
+                            About
+                        </a></li>
+
+                    <li onclick="mymenu()"> <a>
+                            Menu
+                        </a></li>
+
+                    <li onclick="myarticle()"> <a>
+                            Pages
+                        </a></li>
+
+                    <li onclick="mycontact()"> <a>
+                            Contact
+                        </a></li>
+
+                    <div class="button"><button onclick="mytable()">Book a Table</button></div>
+
+
+                </div>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About </li>
+                    </a>
+                    <a id="menu" href="menu.html">
+                        <li>Menu</li>
+                    </a>
+                    <a href="pages.html">
+                        <li>Pages</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="hidebtn" class="buttonbtn button"><button onclick="mytable()">Book a Table</button></div>
+        </div>
+    </header>
+    <main>
+        <div class="section1">
+            <div class="menu1 m">
+                <h1>Our Menu</h1>
+                <p class="m">We consider all the drivers of change gives you the components you need to change to create
+                    a truly
+                    happens.</p>
+                <div class="buttons">
+                    <button id="red">All</button>
+                    <button>Breakfast</button>
+                    <button>Main Dishes</button>
+                    <button>Drinks</button>
+                    <button>Dishes</button>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="boxes">
+                <div class="box1"><img src="assets/pexels-daniela-constantini-5591664 1.png" alt="">
+                    <h3>$ 9.99</h3>
+                    <p>Fried Eggs</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/pexels-maksim-goncharenok-4773769 1.png" alt="">
+                    <h3>$ 15.99</h3>
+                    <p>Hawaiian Pizza</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/pexels-nadin-sh-12956424 1.png" alt="">
+                    <h3>$ 7.25</h3>
+                    <p>Martinez Cocktail</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/Mask group (4).png" alt="">
+                    <h3>$ 20.99</h3>
+                    <p>Butterscotch Cake</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/pexels-bam-awey-5335918 1.png" alt="">
+                    <h3>$ 5.89</h3>
+                    <p>Mint Lemonade</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/Mask group (5).png" alt="">
+                    <h3>$ 18.05</h3>
+                    <p>Chocolate Icecream</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/pexels-pixabay-327158 1.png" alt="">
+                    <h3>$ 12.55</h3>
+                    <p>Cheese Burger</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                <div class="box1"><img src="assets/pexels-nicola-barts-7937386 1.png" alt="">
+                    <h3>$ 12.99</h3>
+                    <p>Classic Waffles</p>
+                    <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section3">
+            <div class="order">
+                <div class="sec1">
+                    <div class="cont">
+                        <h2>You can order through apps</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet
+                            risus
+                            tempor semper.</p>
+                    </div>
+                </div>
+                <div class="sec2">
+                    <div class="container">
+                        <div class="line1"><img src="assets/Group (5).png" alt=""><img src="assets/Vector (3).png"
+                                alt=""><img src="assets/Vector (4).png" alt="">
+                        </div>
+                        <div class="line1 line2"><img src="assets/Vector (5).png" alt=""><img src="assets/Group (6).png"
+                                alt=""><img src="assets/Vector (6).png" alt="">
+                        </div>
+                        <div class="line1"><img src="assets/Group 39981.png" alt=""><img src="assets/Group 39980.png"
+                                alt=""><img src="assets/Group 39979.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1"><a href=""><img src="assets/Logo (3).png" alt=""></a>
+                <p>In the new era of technology we look a in the future with certainty and pride to for our company and.
+                </p>
+                <div class="socials"> <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href=""> <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <h4>Pages</h4>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Pricing</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Delivery</li>
+
+                </ul>
+
+            </div>
+            <div class="footer3">
+                <ul>
+                    <h4>Ulitity Pages</h4>
+                    <li>Sart header</li>
+                    <li>Stylinguide</li>
+                    <li>Password Protected</li>
+                    <li>404 not Found </li>
+                    <li>Licences</li>
+                    <li>Changing</li>
+                    <li>View more</li>
+
+                </ul>
+            </div>
+            <div class="footer4">
+                <p>Follow Us On Instagram</p>
+                <div class="pics">
+                    <a href=""> <img class="pad" src="assets/pexels-steve-3789885 1.png" alt=""></a>
+                    <a href=""><img src="assets/Mask group.png " alt=""></a>
+                    <a href=""> <img src="assets/Mask group (1).png" alt=""></a>
+                    <a href=""> <img class="pad" src="assets/Mask group (2).png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <hr>
+            <p class="copy">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="menu.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

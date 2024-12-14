@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <title>Bistro Bliss</title>
+    <link rel="icon" type="image/x-icon" href="assets/japanese-food.png">
+
+</head>
+
+<body>
+    <header>
+        <div class="contact">
+            <div class="line1contact"> <span> <i class="fa-solid fa-phone"></i> (414) 857 - 0107</span>
+                <span><i class="fa-solid fa-envelope"></i>yummy@bistrobliss</span>
+            </div>
+            <div class="social"> <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="nav">
+
+            <div class="logo">
+                <a href=""> <img src="assets/Logo (2).png" alt="Bistro Bliss"></a>
+            </div>
+
+
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+
+                    <li onclick="myhome()"> <a class="home">
+                            Home
+                        </a></li>
+                    <li onclick="myabout()"> <a>
+                            About
+                        </a></li>
+
+                    <li onclick="mymenu()"> <a>
+                            Menu
+                        </a></li>
+
+                    <li onclick="myarticle()"> <a>
+                            Pages
+                        </a></li>
+
+                    <li onclick="mycontact()"> <a>
+                            Contact
+                        </a></li>
+
+                    <div class="button"><button onclick="mytable()">Book a Table</button></div>
+
+
+                </div>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About </li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Menu</li>
+                    </a>
+                    <a href="pages.html">
+                        <li>Pages</li>
+                    </a>
+                    <a id="contact" href="contact.html">
+                        <li>contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="hidebtn" class="buttonbtn button"><button onclick="mytable()">Book a Table</button></div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="section1">
+            <div class="table">
+                <h1 class="head">Contact Us</h1>
+                <p class="head">We consider all the drivers of change gives you the components you need to change to create a truly
+                    happens.</p>
+                <div class="form">
+
+                    <div class="table1">
+                        <div class="line1">
+                            <div class="name"><label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" />
+                            </div>
+                            <div class="Email"> <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Enter email address" />
+                            </div>
+                        </div>
+                        <div class="line2">
+                            <div class="subject"><label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="Write a subject" />
+                            </div>
+
+                        </div>
+
+
+                        <div class="line2">
+                            <div class="message"><label for="message">Message</label>
+                                <textarea name="message" id="message" placeholder="Write a message"></textarea>
+                            </div>
+
+                        </div>
+                        <div class="button buto"><button>Send</button></div>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            </div>
+
+        </section>
+        <section class="section2">
+            <div class="address">
+                <div class="call pico">
+                    <p>Call Us:</p>
+                    <h3>+1-234-567-8900</h3>
+                </div>
+                <div class="hours pico">
+                    <p>Hours:</p>
+                    <span>Mon-Fri: 11am - 8pm</span><br>
+                    <span> Sat, Sun: 9am - 10pm</span>
+                </div>
+                <div class="location pico">
+                    <p>Our Location:</p>
+                    <span>123 Bridge Street <br> Nowhere Land, LA 12345 <br> United States</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1"><a href=""><img src="assets/Logo (3).png" alt=""></a>
+                <p>In the new era of technology we look a in the future with certainty and pride to for our company and.
+                </p>
+                <div class="socials"> <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href=""> <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <h4>Pages</h4>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Pricing</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Delivery</li>
+
+                </ul>
+
+            </div>
+            <div class="footer3">
+                <ul>
+                    <h4>Ulitity Pages</h4>
+                    <li>Sart header</li>
+                    <li>Stylinguide</li>
+                    <li>Password Protected</li>
+                    <li>404 not Found </li>
+                    <li>Licences</li>
+                    <li>Changing</li>
+                    <li>View more</li>
+
+                </ul>
+            </div>
+            <div class="footer4">
+                <p>Follow Us On Instagram</p>
+                <div class="pics">
+                    <a href=""> <img class="pad" src="assets/pexels-steve-3789885 1.png" alt=""></a>
+                    <a href=""><img src="assets/Mask group.png " alt=""></a>
+                    <a href=""> <img src="assets/Mask group (1).png" alt=""></a>
+                    <a href=""> <img class="pad" src="assets/Mask group (2).png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <hr>
+            <p class="copy">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="contact.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

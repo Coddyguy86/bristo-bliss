@@ -1,0 +1,521 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f9f9f7;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.contact {
+  width: 100vw;
+  overflow: hidden;
+  height: 3rem;
+  background: #474747;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.contact span {
+  color: #f9f9f7;
+
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 6px;
+
+  width: 134px;
+  font-size: 13px;
+}
+.line1contact {
+  margin-left: 60px;
+  cursor: pointer;
+}
+.line1contact i {
+  margin: 10px;
+  color: #f9f9f7;
+  margin-right: 0px;
+}
+.social {
+  margin-right: 75px;
+}
+.social i {
+  color: #ffffff;
+  border: none;
+  background-color: #f9f9f71f;
+  border-radius: 50%;
+  padding: 8px;
+
+  cursor: pointer;
+  text-align: center;
+}
+.logo {
+  cursor: pointer;
+}
+.nav {
+  background: #f9f9f7;
+  height: 100px;
+  width: 100vw;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+}
+.menu li {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 90px;
+}
+.menu {
+  margin-left: -7rem;
+}
+.button button {
+  border: 1.5px solid #2c2f24;
+  background: transparent;
+  border-radius: 40px;
+  padding: 12px 24px 12px 24px;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.button :hover {
+  background: #ad343e;
+  color: #f9f9f7;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  cursor: pointer;
+  list-style: none;
+  color: #2c2f24;
+  border-radius: 40px;
+  padding: 4px 6px;
+  border: none;
+  margin: 0px 10px;
+  transition: all 0.2s linear;
+}
+.menu ul :hover {
+  border-radius: 40px;
+
+  border: none;
+  background: rgb(228, 228, 228);
+}
+a {
+  margin: 0px;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  padding: 0;
+}
+.menu ul a :hover {
+  border-radius: 40px;
+
+  border: none;
+  background: rgb(228, 228, 228);
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #f9f9f7;
+  background: #f9f9f7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  height: 100vh;
+}
+
+.overlay-content {
+  margin-top: 80px;
+  width: 100%;
+  padding: 0px 20px;
+  height: 100vh;
+}
+.overlay-content li {
+  list-style: none;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  background: rgb(228, 228, 228);
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+.nav span {
+  display: none;
+}
+main {
+  width: 100vw;
+  height: 140vh;
+  position: relative;
+}
+main .section1 {
+  width: 100%;
+  height: 50%;
+  background: #f9f9f7;
+  display: flex;
+  justify-content: center;
+}
+main .section2 {
+  width: 100%;
+  height: 50%;
+  background-image: url(assets/Map.png);
+}
+
+main .section1 .table {
+  width: 50%;
+  height: 50%;
+}
+main .section1 .table h1 {
+  font-family: "Playfair Display";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  color: #2c2f24;
+  padding: 20px 0px;
+}
+main .section1 .table p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #495460;
+  width: 82%;
+  margin: auto;
+}
+main .section1 .form {
+  background: #ffffff;
+  width: 800px;
+  height: 500px;
+  border: 1px solid #ffffff;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.table1 {
+  width: 90%;
+  margin: auto;
+}
+main .section1 .form .line1 {
+  display: flex;
+  justify-content: space-between;
+}
+main .section1 .form label {
+  display: block;
+  margin: 50px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #2c2f24;
+}
+main .section1 .form input {
+  width: 300px;
+  border: 1px solid #dbdfd0;
+  padding: 12px 20px;
+  border-radius: 72px;
+  outline: none;
+}
+.person {
+  width: 100%;
+}
+.select {
+  width: 100%;
+  border: 1px solid #dbdfd0;
+  padding: 12px 24px;
+  outline: none;
+  border-radius: 72px;
+}
+.form button {
+  width: 100%;
+  border: 1px solid #dbdfd0;
+  padding: 12px 24px;
+  margin-top: 40px;
+  border-radius: 72px;
+}
+footer {
+  width: 100vw;
+  height: 80vh;
+  background: #474747;
+}
+
+.footer {
+  width: 90%;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer1 {
+  width: 30%;
+}
+.footer1 img {
+  cursor: pointer;
+}
+.footer1 p {
+  color: #adb29e;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 0px;
+}
+.socials i {
+  color: #ffffff;
+  border: none;
+  background-color: #ad343e;
+  border-radius: 50%;
+  padding: 8px;
+
+  cursor: pointer;
+  text-align: center;
+}
+.socials a {
+  margin: 5px;
+}
+.footer2 {
+  width: 15%;
+}
+.footer2 h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer2 li {
+  list-style: none;
+  padding: 10px 0px;
+  color: #dbdfd0;
+  cursor: pointer;
+}
+.footer2 ul :hover {
+  color: #ffffff;
+}
+.footer3 {
+  width: 20%;
+}
+.footer3 h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer3 li {
+  list-style: none;
+  padding: 10px 0px;
+  color: #dbdfd0;
+  cursor: pointer;
+}
+.footer3 ul :hover {
+  color: #ffffff;
+}
+.footer4 {
+  width: 30%;
+}
+.footer4 p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.footer4 .pics {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pics img {
+  width: 100%;
+  transition: all 0.2s linear;
+}
+.pics a {
+  width: 40%;
+}
+.pics a :hover {
+  transform: scale(1.1);
+}
+footer hr {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #414536;
+}
+.copyright {
+  background: #474747;
+  height: 30%;
+}
+footer .copy {
+  color: #adb29e;
+  text-align: center;
+  background: #474747;
+  padding: 15px;
+}
+
+@media screen and (max-width: 764px) {
+  body {
+    overflow-x: hidden;
+  }
+  .line1contact {
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  .social {
+    display: none;
+  }
+  .logo {
+    padding: 0;
+    margin: 0;
+  }
+  .nav {
+    width: 100vw;
+    height: 4rem;
+    padding: 0px 0px;
+    margin: 0;
+  }
+  #hidebtn {
+    display: none;
+  }
+  .nav .logo img {
+    padding: 0 20px;
+    margin: 0;
+    height: 30px;
+  }
+  .menu {
+    display: none;
+  }
+  .overlay-content .button {
+    margin: 10px -10px;
+  }
+  .button button {
+    width: 40vw;
+  }
+  .nav .buttonnbtn {
+    display: none;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  .nav span {
+    display: inline;
+    padding: 0;
+    position: absolute;
+    top: 57px;
+    right: 3px;
+  }
+  main .section1 {
+    justify-content: flex-start;
+  }
+  main .section1 .table h1 {
+    width: 100vw;
+    font-size: 3rem;
+  }
+  main .section1 .table p {
+    display: none;
+  }
+
+  main .section1 .form {
+    width: 90vw;
+    height: auto;
+    margin: 20px auto;
+  }
+  main .section1 .form button {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  main .section1 .form .line1 {
+    display: block;
+  }
+  footer .footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #474747;
+    width: 100%;
+  }
+  footer .footer .footer1 {
+    width: 100%;
+    text-align: center;
+  }
+  footer .footer .footer1 p {
+    width: 90%;
+    margin: auto;
+  }
+  footer .footer .footer2 {
+    width: 88vw;
+    margin: auto;
+  }
+  footer .footer .footer2 h4 {
+    padding: 0px 0px 0px 10px;
+  }
+  footer .footer .footer2 li {
+    padding: 10px;
+  }
+  footer .footer .footer3 {
+    display: none;
+  }
+  footer .footer .footer4 {
+    display: none;
+  }
+  footer hr {
+    width: 90%;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  main .section1 .form {
+    top: 50%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  main .section1 .table .form {
+    top: 50%;
+  }
+}

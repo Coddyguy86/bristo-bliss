@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <title>Bistro Bliss</title>
+    <link rel="icon" type="image/x-icon" href="assets/japanese-food.png">
+
+</head>
+
+<body>
+    <header>
+        <div class="contact">
+            <div class="line1contact"> <span> <i class="fa-solid fa-phone"></i> (414) 857 - 0107</span>
+                <span><i class="fa-solid fa-envelope"></i>yummy@bistrobliss</span>
+            </div>
+            <div class="social"> <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="nav">
+
+            <div class="logo">
+                <a href=""> <img src="assets/Logo (2).png" alt="Bistro Bliss"></a>
+            </div>
+
+
+
+            <div id="myNav2" class="overlay1">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+
+                    <li onclick="myhome()"> <a>
+                            Home
+                        </a></li>
+                    <li onclick="myabout()"> <a>
+                            About
+                        </a></li>
+
+                    <li onclick="mymenu()"> <a>
+                            Menu
+                        </a></li>
+
+                    <li onclick="myarticle()"> <a>
+                            Pages
+                        </a></li>
+
+                    <li onclick="mycontact()"> <a>
+                            Contact
+                        </a></li>
+
+                    <div class="button"><button onclick="mytable()">Book a Table</button></div>
+
+
+                </div>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div class="menu1">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a id="about" href="about.html">
+                        <li>About </li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Menu</li>
+                    </a>
+                    <a href="pages.html">
+                        <li>Pages</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="hidebtn2" class="buttonbtn button"><button onclick="mytable()">Book a Table</button></div>
+
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container1 conta"><img src="assets/image 111.png" alt="">
+                <div class="card">
+                    <h3>Come and visit us</h3>
+                    <i class="fa-solid fa-phone"></i> <span> (414) 857 - 0107</span><br>
+                    <i class="fa-solid fa-envelope"></i> <span>happytummy@restaurant.com</span><br>
+                    <i class="fa-solid fa-location-dot"></i> <span class="lolo">837 W. Marshall Lane Marshalltown </span>
+                    <span class="loc"> IA 50158, Los
+                        Angeles</span>
+                </div>
+            </div>
+            <div class="container2 conto">
+                <h2 class="conto">We provide healthy food for your family.</h2>
+                <p class="para conto">Our story began with a vision to create a unique dining experience that merges
+                    fine
+                    dining,
+                    exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor
+                    our local roots while infusing a global palate.</p>
+                <p>At place, we believe that dining is not just about food, but also about the overall experience. Our
+                    staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.
+                </p>
+                <a>
+                    <div class="span conto"> <button onclick="mymenu()" class="btn2">Explore menu</button></div>
+                </a>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="img">
+                <div class="overlay">
+                    <div class="play">
+                        <div class="i"><i class="fa-solid fa-play"></i></div>
+                        <h2 class="playh">Feel the authentic & original taste from us</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menus">
+                <div class="menu">
+                    <div class="card1"><img src="assets/Group (2).png" alt=""></div>
+                    <div class="card2">
+                        <p class="p1">Multi Cuisine</p>
+                        <p class="p2">In the new era of technology we look in the future with certainty life.</p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="card1"><img src="assets/Group (3).png" alt=""></div>
+                    <div class="card2">
+                        <p class="p1">Easy To Order</p>
+                        <p class="p2">In the new era of technology we look in the future with certainty life.</p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="card1"><img src="assets/Group (4).png" alt=""></div>
+                    <div class="card2">
+                        <p class="p1">Fast Delivery</p>
+                        <p class="p2">In the new era of technology we look in the future with certainty life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="container">
+                <div class="container1 ">
+                    <div class="part1">
+                        <h2 class="part">A little information for our valuable guest</h2>
+                        <p class="part">At place, we believe that dining is not just about food, but also about the
+                            overall
+                            experience.
+                            Our staff, renowned for their warmth and dedication, strives to make every visit an
+                            unforgettable event.</p>
+                    </div>
+                    <div class="part2 ">
+                        <div class="rectangle ">
+                            <div class="loco">
+                                <h2>3</h2>
+                                <p>Locations</p>
+                            </div>
+                        </div>
+                        <div class="rectangle ">
+                            <div class="loco">
+                                <h2>1995</h2>
+                                <p>Founded</p>
+                            </div>
+                        </div>
+                        <div class="rectangle ">
+                            <div class="loco">
+                                <h2>65+</h2>
+                                <p>Staff Members</p>
+                            </div>
+                        </div>
+                        <div class="rectangle ">
+                            <div class="loco">
+                                <h2>100%</h2>
+                                <p>Satisfied Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container2 contai"><img src="assets/Mask group (3).png" alt=""></div>
+            </div>
+        </section>
+        <section class="section6">
+            <h2 class="section6h">What Our Customers Say</h2>
+            <div class="feedback">
+                <div class="fedback">
+                    <h3>“The best restaurant”</h3>
+                    <p>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were
+                        enveloped in an inviting atmosphere and greeted with warm smiles.</p>
+                    <hr>
+                    <div class="per">
+                        <div class="person"> <img src="assets/Ellipse 19.png" alt=""></div>
+                        <div class="info"><span class="name">Sophire Robson</span><br> <span>Los Angeles, CA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fedback">
+                    <h3>“Simply delicious”</h3>
+                    <p>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a
+                        perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</p>
+                    <hr>
+                    <div class="per">
+                        <div class="person"> <img src="assets/Image (1).png" alt=""></div>
+                        <div class="info"><span class="name">Matt Cannon</span><br> <span>San Diego, CA</span></div>
+                    </div>
+                </div>
+                <div class="fedback">
+                    <h3>“One of a kind restaurant”</h3>
+                    <p>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing
+                        short of extraordinary. The food was the highlight of our evening. Highly recommended.</p>
+                    <hr>
+                    <div class="per">
+                        <div class="person"> <img src="assets/Image (2).png" alt=""></div>
+                        <div class="info"><span class="name">Andy Smith</span><br> <span>San Francisco, CA</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1"><a href=""><img src="assets/Logo (3).png" alt=""></a>
+                <p>In the new era of technology we look a in the future with certainty and pride to for our company and.
+                </p>
+                <div class="socials"> <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                    <a href=""> <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <h4>Pages</h4>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Pricing</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Delivery</li>
+
+                </ul>
+
+            </div>
+            <div class="footer3">
+                <ul>
+                    <h4>Ulitity Pages</h4>
+                    <li>Sart header</li>
+                    <li>Stylinguide</li>
+                    <li>Password Protected</li>
+                    <li>404 not Found </li>
+                    <li>Licences</li>
+                    <li>Changing</li>
+                    <li>View more</li>
+
+                </ul>
+            </div>
+            <div class="footer4">
+                <p>Follow Us On Instagram</p>
+                <div class="pics">
+                    <a href=""> <img class="pad" src="assets/pexels-steve-3789885 1.png" alt=""></a>
+                    <a href=""><img src="assets/Mask group.png " alt=""></a>
+                    <a href=""> <img src="assets/Mask group (1).png" alt=""></a>
+                    <a href=""> <img class="pad" src="assets/Mask group (2).png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <hr>
+            <p class="copy">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="about.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
